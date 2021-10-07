@@ -6,19 +6,19 @@
     font-size: 14px;
 }
 
-#main {
+#header {
     display: flex;
     flex-direction: row;
     position: relative;
     margin: 10px 16px;
 }
 
-#left {
+#header-left {
     color: rgb(0, 0, 0);
     opacity: 0.8;
 }
 
-#right {
+#header-right {
     color: black;
     position: absolute;
     right: 00px;
@@ -64,7 +64,7 @@
     box-shadow: 1px 1px 2px rgb(141, 172, 238);
 }
 
-#container {
+#main {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -92,6 +92,7 @@
     height: 40px;
     border: hidden;
     outline: none;
+    font-size: 16px;
 }
 
 #google {
@@ -168,7 +169,7 @@ footer {
 }
 
 .country {
-    font-size: 16px;
+    font-size: 14px;
     color: rgb(85, 85, 85);
     border-bottom: 1px solid rgb(200, 200, 200);
     margin-left: 13px;
@@ -195,7 +196,7 @@ footer {
 }
 
 .footer-links {
-    font-size: 16px;
+    font-size: 14px;
     color: rgb(85, 85, 85);
     text-decoration: none;
     margin: 0px 9.6px;
